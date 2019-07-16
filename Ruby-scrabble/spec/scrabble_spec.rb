@@ -3,8 +3,8 @@ require('scrabble')
 
 describe('#scrabble') do
   it("returns a scrabble score for a letter") do
-    letter = Scrabble.new("A")
-    expect(letter.score).to(eq(1))
+    letter = Scrabble.new("CORD")
+    expect(letter.score).to(eq(69))
   end
 
 end
